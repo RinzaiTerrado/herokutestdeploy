@@ -1,6 +1,10 @@
 from flask import Flask, render_template,request
 import os
-import cv2
+import numpy as np
+import mediapipe as mp
+import matplotlib.pyplot as plt
+from PIL import Image
+from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 
