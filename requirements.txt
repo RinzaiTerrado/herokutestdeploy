@@ -1,5 +1,5 @@
 Flask==2.1.2
 gunicorn==20.1.0
-mediapipe
 Werkzeug==2.1.2
 Pillow==9.2.0
+mediapipe==0.8.10.1
