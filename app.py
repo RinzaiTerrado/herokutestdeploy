@@ -2,7 +2,6 @@ from flask import Flask, render_template,request
 import os
 import numpy as np
 from PIL import Image
-import cv2
 from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
