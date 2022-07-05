@@ -1,6 +1,5 @@
 from flask import Flask, render_template,request
 import os
-import numpy as np
 import cv2
 from PIL import Image
 from werkzeug.utils import secure_filename
